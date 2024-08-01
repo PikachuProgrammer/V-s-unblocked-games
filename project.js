@@ -8,12 +8,6 @@ var Player = function(X,Y){
     this.Y=Y
     
 };
-
-Player.prototype.draw=function() {
-    ctx.rect(this.X,this.Y,100,100);
-
-};
-
 var player= new Player(2,2);
 
 ctx.stroke
